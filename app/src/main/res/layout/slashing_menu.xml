@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/menu"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="12dp">
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/menu_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="250dp"
+            android:layout_marginLeft="0dp"
+            android:src="@mipmap/composer_music" />
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/menu_2"
+            android:layout_marginLeft="96dp"
+            android:layout_marginBottom="231dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:src="@mipmap/composer_thought" />
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/menu_3"
+            android:layout_marginLeft="177dp"
+            android:layout_marginBottom="177dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:src="@mipmap/composer_camera" />
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/menu_4"
+            android:layout_marginBottom="96dp"
+            android:layout_marginLeft="231dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:src="@mipmap/composer_sleep" />
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/menu_5"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="250dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:src="@mipmap/composer_place" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/menu_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:background="@mipmap/composer_button"
+        android:scaleType="centerInside"
+        android:src="@mipmap/composer_icn_plus" />
+</RelativeLayout>
